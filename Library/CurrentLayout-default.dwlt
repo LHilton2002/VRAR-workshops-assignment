@@ -350,9 +350,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 68fbffff
+      m_SelectedIDs: 64f2ffff
+      m_LastClickedID: -3484
+      m_ExpandedIDs: 4ef5ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 64.91997
     speed: 2
-    m_Value: 67.97903
+    m_Value: 64.91997
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -808,14 +808,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\liamh\Desktop\VR-Start-XRIT-2022-Unity2020
+  m_LastProjectPath: C:\Users\liamh\Documents\GitHub\VRAR-workshops-assignment
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 62480000
-    m_LastClickedID: 18530
-    m_ExpandedIDs: 000000006248000064480000664800006848000000ca9a3b
+    m_SelectedIDs: 14530000
+    m_LastClickedID: 21268
+    m_ExpandedIDs: 000000001453000016530000185300001a53000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -843,7 +843,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 7a70ffff
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000062480000644800006648000068480000
+    m_ExpandedIDs: 000000001453000016530000185300001a530000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
