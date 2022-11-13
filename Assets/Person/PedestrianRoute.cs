@@ -9,6 +9,8 @@ public class PedestrianRoute : MonoBehaviour
     public List<Transform> route;
     public int routeNumber = 0;
     public int targetWP = 0;
+    public bool go = false;
+    public float initialDelay;
 
     // Start is called before the first frame update
     void Start()
@@ -41,11 +43,25 @@ public class PedestrianRoute : MonoBehaviour
         wps.Add(wp.transform);
 
         SetRoute();
+
+        initialDelay = Random.Range(2.0f, 12.0f);
+        transform.position = new Vector3(0.0f, -5.0f, 0.0f);
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (!go)
+        {
+            initialDelay -= Time.deltaTime;
+            if (initialDelay <= 0.0f)
+            {
+                go = true;
+                SetRoute();
+            }
+            else return;
+        }
+
         Vector3 displacement = route[targetWP].position - transform.position;
         displacement.y = 0;
         float dist = displacement.magnitude;
