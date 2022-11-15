@@ -47,7 +47,7 @@ public class Car : MonoBehaviour
         wps.Add(wp.transform);
 
 
-        initialDelay = Random.Range(2.0f, 4.0f);
+        initialDelay = Random.Range(2.0f, 12f);
         transform.position = new Vector3(0.0f, -1.5f, 0.0f);
 
         crigidbody = GetComponent<Rigidbody>();
@@ -111,13 +111,14 @@ public class Car : MonoBehaviour
 
 
         //routeNumber = Random.Range(0, 2);
-        routeNumber = 2;
+        // routeNumber = 2;
 
 
         //set the route waypoints
-        if (routeNumber == 0) route = new List<Transform> { wps[0], wps[1], wps[2], wps[3] };
+        if (routeNumber == 0) route = new List<Transform> { wps[3], wps[2], wps[1], wps[0] };
         else if (routeNumber == 1) route = new List<Transform> { wps[4], wps[5] };
-        else if (routeNumber == 2) route = new List<Transform> { wps[0], wps[6], wps[7], wps[4], wps[5], wps[1], wps[2], wps[3], wps[0] };
+        else if (routeNumber == 2) route = new List<Transform> { wps[0], wps[6], wps[7], wps[4], wps[5], wps[1] };
+        else if (routeNumber == 3) route = new List<Transform> { wps[2], wps[3] };
 
         //initialise position and waypoint counter
         transform.position = new Vector3(route[0].position.x, 0.5f, route[0].position.z);
@@ -132,8 +133,6 @@ public class Car : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("Hard crash dodged");
-
         crigidbody.constraints = RigidbodyConstraints.None;
     }
 }

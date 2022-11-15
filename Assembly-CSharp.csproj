@@ -62,6 +62,10 @@
     <Compile Include="Assets\Scripts\RightHandControl.cs" />
     <Compile Include="Assets\Scripts\LeftHandControl.cs" />
     <Compile Include="Assets\TrafficLightController.cs" />
+    <Compile Include="Assets\secondcarscript.cs" />
+    <Compile Include="Assets\moveblocker1.cs" />
+    <Compile Include="Assets\Moveblocker2.cs" />
+    <Compile Include="Assets\moveblocker3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Hands(Oculus)\Shaders\Hands_01.shader" />
