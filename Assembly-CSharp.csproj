@@ -57,17 +57,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\HandControl.cs" />
+    <Compile Include="Assets\secondcarscript.cs" />
+    <Compile Include="Assets\moveblocker1.cs" />
     <Compile Include="Assets\Person\PedestrianRoute.cs" />
     <Compile Include="Assets\Car.cs" />
     <Compile Include="Assets\Scripts\RightHandControl.cs" />
+    <Compile Include="Assets\moveblocker3.cs" />
     <Compile Include="Assets\Scripts\LeftHandControl.cs" />
     <Compile Include="Assets\TrafficLightController.cs" />
-    <Compile Include="Assets\secondcarscript.cs" />
-    <Compile Include="Assets\moveblocker1.cs" />
     <Compile Include="Assets\Moveblocker2.cs" />
-    <Compile Include="Assets\moveblocker3.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
+    <None Include="Assets\Fantasy Skybox FREE\ReleaseNotes.txt" />
     <None Include="Assets\Hands(Oculus)\Shaders\Hands_01.shader" />
     <None Include="Assets\Simple city plain\Read_me.txt" />
     <None Include="Assets\Hands(Oculus)\Materials\Hands_Transparent.shader" />
